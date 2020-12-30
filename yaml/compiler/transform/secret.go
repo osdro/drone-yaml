@@ -15,8 +15,8 @@
 package transform
 
 import (
-	"github.com/drone/drone-runtime/engine"
-	"github.com/drone/drone-yaml/yaml/compiler/internal/rand"
+	"github.com/osdro/drone-runtime/engine"
+	"github.com/osdro/drone-yaml/yaml/compiler/internal/rand"
 )
 
 // WithSecrets is a transform function that adds a set

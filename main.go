@@ -25,14 +25,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/drone/drone-runtime/engine"
-	"github.com/drone/drone-yaml/yaml"
-	"github.com/drone/drone-yaml/yaml/compiler"
-	"github.com/drone/drone-yaml/yaml/compiler/transform"
-	"github.com/drone/drone-yaml/yaml/converter"
-	"github.com/drone/drone-yaml/yaml/linter"
-	"github.com/drone/drone-yaml/yaml/pretty"
-	"github.com/drone/drone-yaml/yaml/signer"
+	"github.com/osdro/drone-runtime/engine"
+	"github.com/osdro/drone-yaml/yaml"
+	"github.com/osdro/drone-yaml/yaml/compiler"
+	"github.com/osdro/drone-yaml/yaml/compiler/transform"
+	"github.com/osdro/drone-yaml/yaml/converter"
+	"github.com/osdro/drone-yaml/yaml/linter"
+	"github.com/osdro/drone-yaml/yaml/pretty"
+	"github.com/osdro/drone-yaml/yaml/signer"
 
 	"gopkg.in/alecthomas/kingpin.v2"
 )

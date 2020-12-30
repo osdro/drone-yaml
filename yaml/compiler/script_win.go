@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/drone/drone-runtime/engine"
-	"github.com/drone/drone-yaml/yaml"
+	"github.com/osdro/drone-runtime/engine"
+	"github.com/osdro/drone-yaml/yaml"
 )
 
 func setupScriptWin(spec *engine.Spec, dst *engine.Step, src *yaml.Container) {

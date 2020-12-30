@@ -7,7 +7,7 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/drone/drone-yaml/yaml"
+	"github.com/osdro/drone-yaml/yaml"
 
 	goyaml "github.com/buildkite/yaml"
 )

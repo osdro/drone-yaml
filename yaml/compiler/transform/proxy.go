@@ -18,7 +18,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/drone/drone-runtime/engine"
+	"github.com/osdro/drone-runtime/engine"
 )
 
 // WithProxy is a transform function that adds the

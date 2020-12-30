@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/drone/drone-runtime/engine"
-	"github.com/drone/drone-yaml/yaml"
-	"github.com/drone/drone-yaml/yaml/compiler/internal/rand"
+	"github.com/osdro/drone-runtime/engine"
+	"github.com/osdro/drone-yaml/yaml"
+	"github.com/osdro/drone-yaml/yaml/compiler/internal/rand"
 )
 
 func setupScript(spec *engine.Spec, dst *engine.Step, src *yaml.Container) {

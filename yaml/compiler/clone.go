@@ -17,9 +17,9 @@ package compiler
 import (
 	"strconv"
 
-	"github.com/drone/drone-runtime/engine"
-	"github.com/drone/drone-yaml/yaml"
-	"github.com/drone/drone-yaml/yaml/compiler/internal/rand"
+	"github.com/osdro/drone-runtime/engine"
+	"github.com/osdro/drone-yaml/yaml"
+	"github.com/osdro/drone-yaml/yaml/compiler/internal/rand"
 )
 
 // default name of the clone step.
